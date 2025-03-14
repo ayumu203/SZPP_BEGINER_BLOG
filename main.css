@@ -1,0 +1,83 @@
+/* google font */
+/* ヘッダーのフォント */
+.mochiy-pop-one-regular {
+    font-family: "Mochiy Pop One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* 本文見出しのフォント */
+.noto-sans-jp {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+/* 本文のフォント */
+.mochiy-pop-one-regular {
+    font-family: "Zen Old Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ヘッダー */
+#header-title{
+    z-index: 1;
+    position: absolute;
+    top:15%;
+    left:50%;
+    transform: translateX(-50%);
+    transform: translateX(-50%);
+    font-size:500%;
+    color:#efffff;
+}
+#header-image-container{
+    width: 100%;
+}
+#header-image{
+    z-index: 0;
+    width: 90%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+
+    opacity: 0.7;
+}
+
+/* メイン */
+main{
+    width:90%;
+    margin: 5% auto auto auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+hr{
+    border-width: 1px;
+    border-color: green;
+}
+
+#main-content-title{
+    font-size: 200%;
+    color:green;
+}
+.main-content-text{
+    color: #777;
+}
+#main-content-image{
+    width: 85%;
+}
+
+#article-menu{
+    width:35%;
+}
+
+#article-image{
+    width:100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.article-menu-title{
+    font-size: 130%;
+    color:brown;
+}
